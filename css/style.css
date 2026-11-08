@@ -1,0 +1,190 @@
+/* Global Reset and Body styles */
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #970808
+    color:#970808;
+}
+/* Header section styling */
+.site-header {
+    position: relative;
+    text-align: center;
+    color:#ffffff
+}
+.site-header img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    display: block;
+
+}
+.site-header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    letter-spacing: 1px;
+    /* Navigation Bar Styling */
+    .main-nav {
+        background-color: #0e1e38;
+        border-top: 1px soild #081224;
+        border-bottom: 1px soild #081224
+    }
+    .main-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 12 px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-nav li {
+        border-right: 1px soild #09341c;
+        padding: 0 35px;
+
+    }
+
+    .main-nav li:last-child {
+        border-right: none;
+    }
+
+    .main-nav a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 0.95rem;
+        letter-spacing: 0.5px;
+}
+main-nav a:hover {
+    color:aqua;
+}
+/* Main Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+/* Section Headings*/
+h2 {
+    color: #970808;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #970808;
+    padding-bottom: 6px;
+    margin-top: 30px;
+}
+
+/* Artlicle & Image text Wrapping */
+.float-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+    border: 2px solid #970808;
+}
+.container p { 
+     line-height: 1.6;
+     text-align: justify;
+     font-size: 0.92rem;
+}
+
+
+/*clearfix to handle floating elements bounds */
+.article-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Facts list styling */
+.facts-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+.facts-section li {
+    margin-bottom: 8px;
+    font-size: 0.92rem;
+    line-height: 1.4;
+}
+/*Form section & Outline Box */
+.contact-form {
+    border: 1px solid #ccc;
+    padding: 25px;
+    background-color: #081224;
+    margin-top: 15px;
+}
+.form-group { 
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .form-group label {
+        margin-bottom: 5px;
+        font-size: 0.85rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .form -group input,
+    .form-group textarea {
+        padding: 9px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        background-color: #ffffff;
+        border-radius: 2px;
+
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+        outline: 1px solid #970808;
+    }
+/*Radio Group Styling */
+.radio-group {
+    display: flex;
+     padding: 0;
+    margin: 0 0 20px 0;
+    border: none;
+    flex-direction: column;
+
+}
+
+.radio-group legend {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.radio-group label {
+    font-weight: normal;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    cursor: pointer;
+    
+}
+
+/*Submit Button */
+.submit-button {
+    background-color: #970808;
+    color: #ffffff;
+    border: none;
+    padding: 8px 24px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background- color 0.2s ease;
+}
+.submit-btn:hover {
+    background-color: #0e1e38;
+}
