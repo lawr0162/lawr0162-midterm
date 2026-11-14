@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #970808
-    color:#970808;
+    background-color: #970808;
+    color:#070606;
 }
 /* Header section styling */
 .site-header {
     position: relative;
     text-align: center;
-    color:#ffffff
+    color:#ffffff;
 }
 .site-header img {
     width: 100%;
@@ -27,12 +27,12 @@ body {
     font-size: 2.8rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin: 0;
-    letter-spacing: 1px;
+    letter-spacing: 1px;}
     /* Navigation Bar Styling */
     .main-nav {
         background-color: #0e1e38;
         border-top: 1px soild #081224;
-        border-bottom: 1px soild #081224
+        border-bottom: 1px soild #081224;
     }
     .main-nav ul {
         list-style: none;
@@ -59,7 +59,7 @@ body {
         font-size: 0.95rem;
         letter-spacing: 0.5px;
 }
-main-nav a:hover {
+.main-nav a:hover {
     color:aqua;
 }
 /* Main Container */
@@ -72,9 +72,9 @@ main-nav a:hover {
 }
 /* Section Headings*/
 h2 {
-    color: #970808;
+    color: #0b0542;
     font-size: 1.3rem;
-    border-bottom: 2px solid #970808;
+    border-bottom: 2px solid #db1212;
     padding-bottom: 6px;
     margin-top: 30px;
 }
@@ -125,7 +125,7 @@ h2 {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-
+}
     .form-group label {
         margin-bottom: 5px;
         font-size: 0.85rem;
@@ -133,7 +133,7 @@ h2 {
         color: #ffffff;
     }
 
-    .form -group input,
+    .form-group input,
     .form-group textarea {
         padding: 9px;
         border: 1px solid #ccc;
@@ -171,11 +171,11 @@ h2 {
     font-size: 0.85rem;
     margin-bottom: 6px;
     cursor: pointer;
-    
+    color: #ffffff;
 }
 
 /*Submit Button */
-.submit-button {
+.submit-btn {
     background-color: #970808;
     color: #ffffff;
     border: none;
